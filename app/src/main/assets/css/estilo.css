@@ -1,0 +1,61 @@
+body, html{
+  background-color: #2e2759;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+.fundo2{
+  background-color: #ffffff;
+  width: 100%;
+}
+.botao{
+  padding: 15% 0 0 0;
+  background: none no-repeat;
+  border: none;
+}
+.inicio{
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.logo{
+  padding: 0 0 15% 0
+}
+.voltar img{
+  height: 25px;
+  width: 25px;
+}
+
+.entrar input, .entrar textarea{
+  margin: 10px 0;
+  border-color: #2e2759 1px;
+  color: #2e2759;
+  width: 80%;
+}
+
+.entrar h1{
+  padding: 0;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #2e2759;
+}
+
+.entrar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.entrar button{
+  padding: 15% 0 0 0;
+  background: none no-repeat;
+  border: none;
+}
